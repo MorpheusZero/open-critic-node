@@ -1,0 +1,35 @@
+{
+  "name": "open-critic-node",
+  "version": "1.0.0",
+  "description": "A NodeJS Wrapper for the Open Critic API",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "compile": "npx tsc",
+    "clean": "rm -rf dist",
+    "test": "NODE_ENV=test && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorpheusZero/open-critic-node.git"
+  },
+  "keywords": ["open critic api","video game api","video games"],
+  "author": "https://github.com/MorpheusZero/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MorpheusZero/open-critic-node/issues"
+  },
+  "homepage": "https://github.com/MorpheusZero/open-critic-node#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}

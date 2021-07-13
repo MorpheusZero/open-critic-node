@@ -4,7 +4,7 @@ A NodeJS Wrapper for the Open Critic API
 ### Installation
 
 ```bash
-npm -i open-critic-node
+npm i open-critic-node
 ```
 
 ### Usage
